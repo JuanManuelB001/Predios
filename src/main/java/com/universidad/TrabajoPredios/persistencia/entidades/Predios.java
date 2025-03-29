@@ -6,7 +6,7 @@ import lombok.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "predios")
+@Table(name = "predios_tbl")
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
@@ -19,5 +19,5 @@ public class Predios {
     private int tamanoTerreno;
     private String duenoPredio;
     private String ubicacion;
-    private LocalDateTime fechaRegistro;
+
 }

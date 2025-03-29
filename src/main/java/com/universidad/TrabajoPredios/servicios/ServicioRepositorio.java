@@ -15,10 +15,10 @@ public class ServicioRepositorio {
     public Predios agregar(Predios predio){
         return predioRepo.save(predio);
     }
-    /*
+
     public List<Predios> mostrarTodos(){
         return  predioRepo.findAll();
     }
 
-     */
+
 }

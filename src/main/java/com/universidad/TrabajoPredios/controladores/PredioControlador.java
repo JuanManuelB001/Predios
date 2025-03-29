@@ -13,13 +13,11 @@ import java.util.List;
 @AllArgsConstructor
 public class PredioControlador {
     ServicioRepositorio servicioRepo;
-    /*
+
     @GetMapping("/")
     public List<Predios> listar(){
         return servicioRepo.mostrarTodos();
     }
-
-     */
 
     @PostMapping("/")
     public Predios agregar(@RequestBody Predios predio){
