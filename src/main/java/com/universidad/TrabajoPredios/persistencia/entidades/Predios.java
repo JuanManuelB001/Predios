@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @Table(name = "predios")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Setter
 @Getter
 public class Predios {

@@ -1,6 +1,5 @@
 package com.universidad.TrabajoPredios.controladores;
 
-
 import com.universidad.TrabajoPredios.persistencia.entidades.Predios;
 import com.universidad.TrabajoPredios.servicios.ServicioRepositorio;
 import lombok.AllArgsConstructor;
@@ -13,16 +12,14 @@ import java.util.List;
 @AllArgsConstructor
 public class PredioControlador {
     ServicioRepositorio servicioRepo;
-    /*
+
     @GetMapping("/")
-    public List<Predios> listar(){
+    public List<Predios> listar() {
         return servicioRepo.mostrarTodos();
     }
 
-     */
-
     @PostMapping("/")
-    public Predios agregar(@RequestBody Predios predio){
+    public Predios agregar(@RequestBody Predios predio) {
         return servicioRepo.agregar(predio);
     }
 }
