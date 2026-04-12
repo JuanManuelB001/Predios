@@ -15,7 +15,7 @@ public class PredioControlador {
 
     @GetMapping("/")
     public List<Predios> listar() {
-        return servicioRepo.mostrarTodos(); // ERROR FUNCION NO EXISTE
+        return servicioRepo.mostrarTodos(); // ERR
         // NO SE A PODIDO CORRERRI
     }
 
