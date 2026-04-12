@@ -15,7 +15,8 @@ public class PredioControlador {
 
     @GetMapping("/")
     public List<Predios> listar() {
-        return servicioRepo.mostrarTodos();
+        return servicioRepo.mostrarTodos(); // ERR
+        // NO SE A PODIDO CORRERRI
     }
 
     @PostMapping("/")
